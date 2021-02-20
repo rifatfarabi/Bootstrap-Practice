@@ -1,0 +1,64 @@
+.navbar-brand img{
+    height: 80px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: blue !important;
+    border-top: red solid 1px;
+}
+
+.navbar-nav a{
+    transition: all 0.5s ease !important;
+}
+
+.navbar-nav a:hover{
+    background: slateblue;
+    padding: 20px;
+}
+
+.carousel-inner .carousel-item{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.iframe >*{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.quick-link li a{
+    color: white;
+}
+.quick-link li a:hover{
+    color: brown;
+}
+
+.fa{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.fa:hover{
+    color: red;
+}
